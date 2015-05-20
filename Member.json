@@ -1,0 +1,53 @@
+[
+	{
+		"member_ID" : 1,
+		"member_name" : "Da Meng",
+		"member_bio" : "BS in Computer Science. Expected to graduate Dec 2015. Language: Java, C++, PHP, SQL, Python." ,
+		"member_major_responsibility" : "First team leader, assigning work to each team member, helping communication within the team, collecting data, designing pages.",
+		"member_commit" : 38,
+		"member_issue" : 8,
+		"member_unittest" : 0,
+		"member_image" : "static/images/member/Da_Meng.jpg",
+		"member_leader": 1
+	},{
+		"member_ID" : 2,
+		"member_name" : "Jin Ho Kim",
+		"member_bio" : "Computer Science major, Korean minor.Graduating on May 2015. Fluent in Java, C, Python, SQL." ,
+		"member_major_responsibility" : "Third team leader, assigning work to each team member, Apiary, data entry, google Map, etc.",
+		"member_commit" : 20,
+		"member_issue" : 5,
+		"member_unittest" : 0,
+		"member_image" : "static/images/member/Jin_Ho_Kim.jpg",
+		"member_leader": 3
+	},{
+		"member_ID" : 3,
+		"member_name" : "Kevin Valle",
+		"member_bio" : "Second team leader.Third year University of Texas student pursuing Bachelor of Science degrees in Computer Science and Pure Mathematics. Expected to graduate in August 2015. Favorite Language is Python." ,
+		"member_major_responsibility" : "First team leader, assigning work to each team member, helping communication within the team, collecting data, designing pages.",
+		"member_commit" : 28,
+		"member_issue" : 3,
+		"member_unittest" : 15,
+		"member_image" : "static/images/member/Kevin_Valle.jpg",
+		"member_leader": 2
+	},{
+		"member_ID" : 4,
+		"member_name" : "Chan Hee Park",
+		"member_bio" : "BSA in Computer Science with a Business Foundations Certificate. Expected to graduate May 2015. Language: Java, C, C#, Python, SQL" ,
+		"member_major_responsibility" : "Front-end development (HTML, CSS, JavaScript) with usage of Twitter Bootstrap",
+		"member_commit" : 33,
+		"member_issue" : 4,
+		"member_unittest" : 0,
+		"member_image" : "static/images/member/Chan_Hee_Park.jpg",
+		"member_leader": 0
+	},{
+		"member_ID" : 5,
+		"member_name" : "Seung Youp Baek",
+		"member_bio" : "Computer Science Major with CS Game Development Certificate. Expected to graduate Dec. 2015. Skill: C++, OpenGL, Java, Python." ,
+		"member_major_responsibility" : "Front end development. Static/dynamic page with HTML, CSS, Bootstrap, and Javascript. Apiary, etc.",
+		"member_commit" : 57,
+		"member_issue" : 4,
+		"member_unittest" : 0,
+		"member_image" : "static/images/member/Seung_Youp_Baek.png",
+		"member_leader": 0
+	}
+]

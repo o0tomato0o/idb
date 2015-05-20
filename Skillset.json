@@ -1,0 +1,45 @@
+[
+            {
+                "skillset_ID" : 1,
+                "skillset_name": "Web app, Back-end",
+                "skillset_description" : "Spring, J2EE, Hibernate",
+                "skillset_wiki_description" : "A web application or web app is any software that runs in a web browser. It is created in a browser-supported programming language (such as the combination of JavaScript, HTML and CSS) and relies on a web browser to render the application.",
+                "skillset_wiki_link" : "http://en.wikipedia.org/wiki/Front_and_back_ends",
+                "skillset_image" : "static/images/skillset_icon/web_app_backend_icon.png"
+            },{
+                "skillset_ID" : 2,
+                "skillset_name": "Mobile computing",
+                "skillset_description" : "Mobile computing, IOS, Andriod",
+                "skillset_wiki_description" :"Mobile computing is human computer interaction by which a computer is expected to be transported during normal usage. Mobile computing involves mobile communication, mobile hardware, and mobile software. Communication issues include ad hoc and infrastructure networks as well as communication properties, protocols, data formats and concrete technologies. Hardware includes mobile devices or device components. Mobile software deals with the characteristics and requirements of mobile applications." ,
+                "skillset_wiki_link" : "http://en.wikipedia.org/wiki/Mobile_computing",
+                "skillset_image" : "static/images/skillset_icon/mobile_computing_icon.png"
+            },{
+                "skillset_ID" : 3,
+                "skillset_name": "Network",
+                "skillset_description" : "Network administration, Cloud computing",
+                "skillset_wiki_description" : "A computer network or data network is a telecommunications network which allows computers to exchange data. In computer networks, networked computing devices pass data to each other along data connections (network links). Data is transferred in the form of packets. The connections between nodes are established using either cable media or wireless media. The best-known computer network is the Internet.",
+                "skillset_wiki_link" : "http://en.wikipedia.org/wiki/Computer_network",
+                "skillset_image" : "static/images/skillset_icon/network_icon.png"
+            },{
+                "skillset_ID" : 4,
+                "skillset_name": "Web Front-end",
+                "skillset_description" : "Html, javascript, CSS",
+                "skillset_wiki_description" : "In software engineering, the terms \"front end\" and \"back end\" are distinctions which refer to the separation of concerns between a presentation layer and a data access layer respectively. The front end is an interface between the user and the back end. The front and back ends may be distributed amongst one or more systems.",
+                "skillset_wiki_link" : "http://en.wikipedia.org/wiki/Front_and_back_ends",
+                "skillset_image" : "static/images/skillset_icon/web_frontend_icon.png"
+            },{
+                "skillset_ID" : 5,
+                "skillset_name": "Big data",
+                "skillset_description" : "Hadoop, big data",
+                "skillset_wiki_description" : "Big data is a broad term for data sets so large or complex that traditional data processing applications are inadequate. Challenges include analysis, capture, curation, search, sharing, storage, transfer, visualization, and information privacy.",
+                "skillset_wiki_link" : "http://en.wikipedia.org/wiki/Big_data",
+                "skillset_image" : "static/images/skillset_icon/bigdata_icon.png"
+            },{
+                "skillset_ID" : 6,
+                "skillset_name": "Database",
+                "skillset_description" : "MySQL, NoSQL, MongoDB",
+                "skillset_wiki_description" : "A database is an organized collection of data. The data is typically organized to model aspects of reality in a way that supports processes requiring information. For example, modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.",
+                "skillset_wiki_link" : "http://en.wikipedia.org/wiki/Database",
+                "skillset_image" : "static/images/skillset_icon/database_icon.png"
+            }
+]

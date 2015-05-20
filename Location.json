@@ -1,0 +1,73 @@
+[
+            {
+                "location_ID" : 1,
+                "location_name": "Austin, TX",
+                "location_description" : "Austin is the capital of the US state of Texas and the seat of Travis County. Located in Central Texas, Austin is the 11th-most populous city in the United States and the fourth-most populous city in Texas.",
+                "location_image" : "static/images/location_icon/austin.jpg"
+                
+            },{
+
+                "location_ID" : 2,
+                "location_name": "Seattle, WA",
+                "location_description" : "Seattle is a coastal seaport city and the seat of King County, in the U.S. state of Washington. With an estimated 652,405 residents as of 2013, Seattle is the largest city in both the State of Washington ...",
+                "location_image" : "static/images/location_icon/seattle.jpg"
+                
+            }, {
+
+                "location_ID" : 3,
+                "location_name": "San Francisco, CA",
+                "location_description" : "San Francisco, officially the City and County of San Francisco, is the cultural, commercial and financial center of Northern California.",
+                "location_image" : "static/images/location_icon/san_francisco.jpg"
+                
+            },{
+
+                "location_ID" : 4,
+                "location_name": "Los Angles, CA",
+                "location_description" : "Los Angeles, officially the City of Los Angeles, often known by its initials L.A., is a major city in California's Southern California region, approximately 342 miles south of San Francisco.",
+                "location_image" : "static/images/location_icon/los_anglos.jpg"
+                
+            },{
+
+                "location_ID" : 5,
+                "location_name": "New York City, NY",
+                "location_description" : "New York - often called New York City or the City of New York to distinguish it from the State of New York, of which it is a part - is the most populous city in the United States and the center of the ...",
+                "location_image" : "static/images/location_icon/new_york_city.jpg"
+                
+            },{
+
+                "location_ID" : 6,
+                "location_name": "Boston, MA",
+                "location_description" : "Boston is the capital and largest city of the Commonwealth of Massachusetts in the United States. Boston also serves as county seat of Suffolk County.",
+                "location_image" : "static/images/location_icon/boston.jpg"
+                
+            },{
+
+                "location_ID" : 7,
+                "location_name": "Dallas, TX",
+                "location_description" : "Dallas is a major city in Texas and is the largest urban center of the fourth most populous metropolitan area in the United States. The city proper ranks ninth in the U.S. and third in Texas after Houston and San Antonio.",
+                "location_image" : "static/images/location_icon/dallas.jpg"
+                
+            },{
+
+                "location_ID" : 8,
+                "location_name": "San Jose, CA",
+                "location_description" : "San Jose is the third-largest city in California, the tenth-largest in the United States, and the county seat of Santa Clara County. San Jose is the largest city within the San Francisco Bay Area and the largest city in Northern California.",
+                "location_image" : "static/images/location_icon/san_jose.jpg"
+                
+            },{
+
+                "location_ID" : 9,
+                "location_name": "Mountain View, CA",
+                "location_description" : "Mountain View is a city in Santa Clara County, in the Bay Area of California.",
+                "location_image" : "static/images/location_icon/mountain_view.jpg"
+                
+            },{
+
+                "location_ID" : 10,
+                "location_name": "Menlo Park, CA",
+                "location_description" : "Menlo Park is an affluent city at the eastern edge of San Mateo County, in the San Francisco Bay Area of California, in the United States.",
+                "location_image" : "static/images/location_icon/menlo_park.jpg"
+                
+            }
+
+]

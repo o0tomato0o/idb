@@ -1,0 +1,50 @@
+for Jin to know the ID numbers and jobs to be done
+
+Company.json
+	1 - google
+	2 - oracle
+	3 - amazon
+	4 - facebook //jin will work on it over spring break
+	5 - twitter //jin will work on it over spring break
+	6 - linkedIn //jin will work on it over spring break
+	7 - tripadvisor
+	8 - ebay
+	9 - rackspace
+	10 - indeed
+
+Language.json
+	1 - java
+	2 - c/c++
+	3 - PHP
+	4 - python
+	5 -
+	6 - 
+	7 -
+	8 -
+	9 -
+	10 -
+
+Location.json
+	1 - Austin, tx
+	2 - Seattle, wa
+	3 - san francisco, ca
+	4 - los Angeles, ca
+	5 - new york city, ny
+	6 - boston, ma
+	7 - dallas, tx
+	8 - chicago, il
+	9 - san jose, ca
+	10 -
+
+Skillset.json
+	1 - Spring, J2EE, Hibernate
+	2 - mobile computing
+	3 - network
+	4 - web, html, javascript, css
+	5 - hadoop, big data
+	6 - database, sql, nosql
+	7 -
+	8 -
+	9 -
+	10 -
+

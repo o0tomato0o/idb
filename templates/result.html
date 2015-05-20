@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+{% endblock %}
+{% block content %}
+    <div class="row row-format">
+		<h2><b>Unittest result</b></h2>
+		<br>
+		<hr>
+		<br>
+		{% for line in result %}
+			{{line}}
+			<br>
+		{% endfor %}
+	</div>
+	<hr>
+{% endblock %}
+{% block footer %}
+  {{super()}}
+{% endblock %}

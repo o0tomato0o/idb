@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+{% endblock %}
+{% block content %}
+	Running unit tests...
+    <hr>
+{% endblock %}
+{% block footer %}
+  {{super()}}
+    <script language="javascript">
+	    window.location.href = '/result'
+	</script>
+{% endblock %}

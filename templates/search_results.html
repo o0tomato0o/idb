@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Programming Jobs</title>
+
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+    <!-- Bootstrap -->
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index">Programmer Jobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pillars<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/language">Language</a></li>
+                <li><a href="/company">Company</a></li>
+                <li><a href="/location">Location</a></li>
+              </ul>
+            </li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/modeldoc">Model Doc</a></li>
+            <li><a href="/tests">Unittest</a></li>
+          </ul>
+	<div class="col-sm-3 col-md-3 pull-right">
+            <form action="/search" class="navbar-form">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="query">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-format">
+      <div class="container">
+        <br><br><br><br><br>
+	<div class="text-center">
+	<b><h1>Search result for
+	{% set querySize = queryList|length - 1 %}
+	
+	{% for query in queryList %}
+		{{query}}
+		{% if querySize != 0 %}
+			,
+			{% set querySize = querySize - 1 %}
+		{% endif %}
+	{% endfor %}
+	</h1></b>
+	</div>
+	<table id="andTable" class="table table-striped" >  
+
+          <thead>
+            <tr>
+              <th>Job Position</th>
+              <th>Company</th>
+              <th>Location</th>
+              <th>Language</th>
+	      <th>Skillset</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for jobDict in andMatchList %}
+            <tr>
+              <td>
+		<a href="/job/{{jobDict.job_id}}">
+	        {% if boldList[4] > 0 %}
+		<b>{{jobDict.job_title}}</b>
+		{% else %}
+		{{jobDict.job_title}}
+		{% endif %}
+		</a>
+	      </td>
+		{% set companyID = jobDict.company_id - 1 %}
+              <td>
+		<a href="/company/{{jobDict.company_id}}">
+		{% if boldList[1] > 0 %}
+		<b>{{cmpyJson[companyID].company_name}}</b>
+		{% else %}
+		  {{cmpyJson[companyID].company_name}}
+		{% endif %}
+
+		</a>
+	      </td>
+		{% set locationID = jobDict.location_id - 1 %}
+              <td>
+		<a href="/location/{{jobDict.location_id}}">
+		{% if boldList[3] > 0 %}
+		<b>{{locJson[locationID].location_name}}</b>
+		{% else %}
+		  {{locJson[locationID].location_name}}
+		{% endif %}
+		</a>
+	      </td>
+		{% set languageID = jobDict.languages[0].language_id - 1 %}
+              <td>
+		<a href="/language/{{jobDict.languages[0].language_id}}">
+		{% if boldList[0] > 0 %}
+		<b>{{langJson[languageID].language_name}}</b>
+		{% else %}
+		  {{langJson[languageID].language_name}}
+		{% endif %}
+
+		</a>
+	      </td>
+		{% set skillsetID = jobDict.skillsets[0].skillset_id - 1 %}
+	      <td>
+		<a href="/skillset/{{jobDict.skillsets[0].skillset_id}}">
+		{% if boldList[2] > 0 %}
+		<b>{{skillsetJson[skillsetID].skillset_name}}</b>
+		{% else %}
+		{{skillsetJson[skillsetID].skillset_name}}
+		{% endif %}
+		</a>
+	     </td>
+            </tr>
+            {% endfor %}
+	    {% for jobDict in orJobTitleMatchList %}
+	    <tr>
+              <td>
+		<a href="/job/{{jobDict.job_id}}">
+		<b>{{jobDict.job_title}}</b>
+		</a>
+	      </td>
+		{% set companyID = jobDict.company_id - 1 %}
+              <td>
+		<a href="/company/{{jobDict.company_id}}">
+		  {{cmpyJson[companyID].company_name}}
+		</a>
+	      </td>
+		{% set locationID = jobDict.location_id - 1 %}
+              <td>
+		<a href="/location/{{jobDict.location_id}}">
+		  {{locJson[locationID].location_name}}
+		</a>
+	      </td>
+		{% set languageID = jobDict.languages[0].language_id - 1 %}
+              <td>
+		<a href="/language/{{jobDict.languages[0].language_id}}">
+		  {{langJson[languageID].language_name}}
+		</a>
+	      </td>
+		{% set skillsetID = jobDict.skillsets[0].skillset_id - 1 %}
+	      <td>
+		<a href="/skillset/{{jobDict.skillsets[0].skillset_id}}">
+		{{skillsetJson[skillsetID].skillset_name}}
+		</a>
+	     </td>
+            </tr>
+            {% endfor %}
+	    {% for jobDict in orCmpyMatchList %}
+	    <tr>
+              <td>
+		<a href="/job/{{jobDict.job_id}}">
+		{{jobDict.job_title}}
+		</a>
+	      </td>
+		{% set companyID = jobDict.company_id - 1 %}
+              <td>
+		<a href="/company/{{jobDict.company_id}}">
+		  <b>{{cmpyJson[companyID].company_name}}</b>
+		</a>
+	      </td>
+		{% set locationID = jobDict.location_id - 1 %}
+              <td>
+		<a href="/location/{{jobDict.location_id}}">
+		  {{locJson[locationID].location_name}}
+		</a>
+	      </td>
+		{% set languageID = jobDict.languages[0].language_id - 1 %}
+              <td>
+		<a href="/language/{{jobDict.languages[0].language_id}}">
+		  {{langJson[languageID].language_name}}
+		</a>
+	      </td>
+		{% set skillsetID = jobDict.skillsets[0].skillset_id - 1 %}
+	      <td>
+		<a href="/skillset/{{jobDict.skillsets[0].skillset_id}}">
+		{{skillsetJson[skillsetID].skillset_name}}
+		</a>
+	     </td>
+            </tr>
+            {% endfor %}
+	    {% for jobDict in orLocMatchList %}
+	    <tr>
+              <td>
+		<a href="/job/{{jobDict.job_id}}">
+		{{jobDict.job_title}}
+		</a>
+	      </td>
+		{% set companyID = jobDict.company_id - 1 %}
+              <td>
+		<a href="/company/{{jobDict.company_id}}">
+		  {{cmpyJson[companyID].company_name}}
+		</a>
+	      </td>
+		{% set locationID = jobDict.location_id - 1 %}
+              <td>
+		<a href="/location/{{jobDict.location_id}}">
+		  <b>{{locJson[locationID].location_name}}</b>
+		</a>
+	      </td>
+		{% set languageID = jobDict.languages[0].language_id - 1 %}
+              <td>
+		<a href="/language/{{jobDict.languages[0].language_id}}">
+		  {{langJson[languageID].language_name}}
+		</a>
+	      </td>
+		{% set skillsetID = jobDict.skillsets[0].skillset_id - 1 %}
+	      <td>
+		<a href="/skillset/{{jobDict.skillsets[0].skillset_id}}">
+		{{skillsetJson[skillsetID].skillset_name}}
+		</a>
+	     </td>
+            </tr>
+            {% endfor %}
+	    {% for jobDict in orLangMatchList %}
+	    <tr>
+              <td>
+		<a href="/job/{{jobDict.job_id}}">
+		{{jobDict.job_title}}
+		</a>
+	      </td>
+		{% set companyID = jobDict.company_id - 1 %}
+              <td>
+		<a href="/company/{{jobDict.company_id}}">
+		  {{cmpyJson[companyID].company_name}}
+		</a>
+	      </td>
+		{% set locationID = jobDict.location_id - 1 %}
+              <td>
+		<a href="/location/{{jobDict.location_id}}">
+		  {{locJson[locationID].location_name}}
+		</a>
+	      </td>
+		{% set languageID = jobDict.languages[0].language_id - 1 %}
+              <td>
+		<a href="/language/{{jobDict.languages[0].language_id}}">
+		  <b>{{langJson[languageID].language_name}}</b>
+		</a>
+	      </td>
+		{% set skillsetID = jobDict.skillsets[0].skillset_id - 1 %}
+	      <td>
+		<a href="/skillset/{{jobDict.skillsets[0].skillset_id}}">
+		{{skillsetJson[skillsetID].skillset_name}}
+		</a>
+	     </td>
+            </tr>
+            {% endfor %}
+	    {% for jobDict in orSkillMatchList %}
+	    <tr>
+              <td>
+		<a href="/job/{{jobDict.job_id}}">
+		{{jobDict.job_title}}
+		</a>
+	      </td>
+		{% set companyID = jobDict.company_id - 1 %}
+              <td>
+		<a href="/company/{{jobDict.company_id}}">
+		  {{cmpyJson[companyID].company_name}}
+		</a>
+	      </td>
+		{% set locationID = jobDict.location_id - 1 %}
+              <td>
+		<a href="/location/{{jobDict.location_id}}">
+		  {{locJson[locationID].location_name}}
+		</a>
+	      </td>
+		{% set languageID = jobDict.languages[0].language_id - 1 %}
+              <td>
+		<a href="/language/{{jobDict.languages[0].language_id}}">
+		  {{langJson[languageID].language_name}}
+		</a>
+	      </td>
+		{% set skillsetID = jobDict.skillsets[0].skillset_id - 1 %}
+	      <td>
+		<a href="/skillset/{{jobDict.skillsets[0].skillset_id}}">
+		  <b>{{skillsetJson[skillsetID].skillset_name}}</b>
+		</a>
+	     </td>
+            </tr>
+            {% endfor %}	
+          </tbody>
+
+        </table> 
+	<br>
+	<hr>
+	<!--
+	{% set orLen = orMatchList|length %}
+	{% if orMatchList|length != 0 %}
+	<br>
+	<div class="text-center">
+	<b><h1>Search result for
+	{% set querySize = queryList|length - 1 %}
+	
+	{% for query in queryList %}
+		{{query}}
+		{% if querySize != 0 %}
+			or
+			{% set querySize = querySize - 1 %}
+		{% endif %}
+	{% endfor %}
+	</h1></b>
+	</div>
+	<table id="orTable" class="table table-striped" >  
+
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Job Position</th>
+              <th>Company</th>
+              <th>Location</th>
+              <th>Language</th>
+	      <th>Skillset</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% set num = 1 %}
+            {% for jobDict in orMatchList %}
+            <tr>
+              <td>{{num}}</td>
+                {% set num = num + 1 %}
+              <td><a href="/job/{{jobDict.job_id}}">{{jobDict.job_title}}</a></td>
+		{% set companyID = jobDict.company_id - 1 %}
+              <td><a href="/company/{{jobDict.company_id}}">{{cmpyJson[companyID].company_name}}</a></td>
+		{% set locationID = jobDict.location_id - 1 %}
+              <td><a href="/location/{{jobDict.location_id}}">{{locJson[locationID].location_name}}</a></td>
+		{% set languageID = jobDict.languages[0].language_id - 1 %}
+              <td><a href="/language/{{jobDict.languages[0].language_id}}">{{langJson[languageID].language_name}}</a></td>
+		{% set skillsetID = jobDict.skillsets[0].skillset_id - 1 %}
+	      <td><a href="/skillset/{{jobDict.skillsets[0].skillset_id}}">{{skillsetJson[skillsetID].skillset_name}}</a></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+
+        </table> 
+	{% endif %}
+	-->
+      </div>
+    </div>
+  </div>
+    <!-- Footer -->
+    <div class="container">
+      <div class="text pull-left">
+        <p>© 2015 Team Programmer Jobs</p>
+      </div>
+    </div>
+  </body>
+<script>
+$(document).ready(function(){
+    $('#andTable').dataTable({
+    	"order": [[0, "desc"]]
+    });
+});
+</script>
+
+</html>

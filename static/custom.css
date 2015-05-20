@@ -1,0 +1,283 @@
+body {
+	padding-top: 50px;
+}
+
+@media(max-width: 900px) {
+	h1 {
+		font-size: 3em;
+	}
+}
+
+@media(max-width: 570px) {
+	h1 {
+		font-size: 1.8em
+	}
+	h4 {
+		font-size: 1.2em;
+	}
+}
+
+@media(max-width: 500px) {
+	h4 {
+		font-size: 1em;
+	}
+}
+
+img.centered-image {
+	text-align: center;
+	display: block;
+}
+
+.jumbotron-text {
+	color: rgba(248, 248, 255, 1);
+	text-shadow: 2px 2px #000000;
+}
+
+#tech-text {
+	color: rgba(248, 248, 255, 0.7);
+}
+
+img.company-logo {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.company-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 3%;
+}
+
+#index-jumbotron {
+	padding-top: 100px;
+	background-size: cover;
+	background-image: url("images/jumbotron/splash_jumbotron.jpg");
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#stat-jumbotron {
+	padding-top: 100px;
+	background-size: cover;
+	background-image: url("images/jumbotron/stat_jumbotron.jpg");
+	background-attachment: fixed;
+}
+
+#environment-jumbotron {
+	padding-top: 100px;
+	background-size: cover;
+	background-image: url("images/jumbotron/environment_jumbotron.jpg");
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#tech-jumbotron {
+	padding-top: 100px;
+	background-size: cover;
+	background-image: url("images/jumbotron/tech_jumbotron.jpg");
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#locations-jumbotron {
+	padding-top: 5%;
+	background-image: url("images/jumbotron/locations_jumbotron.jpg");
+	background-size: cover;
+	background-position: -100px 340px;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+#companies-jumbotron {
+	padding-top: 5%;
+	background-image: url("images/jumbotron/companies_jumbotron.jpg");
+	background-size: cover;
+	background-position: 50% 60%;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+#skillset-jumbotron {
+	padding-top: 5%;
+	background-image: url("images/jumbotron/skillset_jumbotron.jpg");
+	background-size: cover;
+
+}
+
+#languages-jumbotron {
+	padding-top: 5%;
+	background-image: url("images/jumbotron/languages_jumbotron.png");
+	background-size: cover;
+}
+
+#about-jumbotron {
+	padding-top: 5%;
+	background-image: url("http://www.youwall.com/papel/team_wallpaper_3f9c0.jpg");
+	background-position: 50% 30%;
+	background-size: cover;
+}
+
+#quote {
+	max-width: 55%;
+	margin: 7%;
+	margin-left: 25%;
+}
+
+.content-box {
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	width: 70%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+.filter-blur {
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+}
+
+.index-bubbles {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.locations-jumbotron {
+	padding-top: 50px;
+	color: black;
+	height: 250px;
+}
+
+.row-format {
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+.company-format {
+	padding-top: 30px;
+}
+
+.language-format{
+	padding-top: 30px;
+}
+
+.circularize {
+	background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+img.img-cut {
+	width: 375px;
+	height:375px;
+}
+
+img.img-response {
+	width: 100%;
+	height: 100%;
+	max-height: 300px;
+	max-width: 300px;
+	position: relative;
+}
+
+img.img-response-profile{
+	width: 100%;
+	height: 100%;
+	/*max-height: 300px;*/
+	max-width: 200px;
+	position: relative;
+}
+
+img.img-response-language {
+	width: 100%;
+	height: 100%;
+	max-height: 250px;
+	max-width: 200px;
+	position: relative;
+}
+
+img.img-response-skillset {
+	width: 100%;
+	height: 100%;
+	max-width: 250px;
+	/*max-height: 250px;*/
+	position: relative;
+}
+
+img.img-response-location {
+	width: 100%;
+	height: 100%;
+	max-height: 375px;
+	max-width: 375px;
+	background-size: cover;
+	position: relative;
+}
+
+a img.blur {
+	-webkit-transition: all 0.5s;
+}
+
+a img.blur:hover {
+	-webkit-filter: blur(3px);
+	-webkit-transition: all 0.5s;
+}
+
+.bubble {
+	position: relative;
+	width:100%;
+}
+
+span {
+	position: absolute;
+	left: 0%;
+	padding-left: 25%;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	max-width:300px;
+	max-height:300px;
+	color: white;
+	font-size: 50px;
+	opacity: 1;
+	-webkit-transition: all 0.5s;
+}
+
+span:hover .hover-wrap{
+	opacity: 1;
+	-webkit-transition: all 0.5s;
+}
+
+.hover-wrap:hover .hover-text {
+	opacity: 1;
+	-webkit-transition: all 0.5s;
+}
+
+.hover-text {
+	opacity: 0.35;
+
+	-webkit-transition: all 0.5s;
+}
+
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+a:link {
+	text-decoration: none;
+}

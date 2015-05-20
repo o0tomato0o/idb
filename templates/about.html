@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+{% endblock %}
+{% block content %}
+    <div align="center">
+      <br>
+      <h1>Team Programmer Job</h1>
+      <br><hr>
+    </div>
+
+    <!-- Apiary and Github -->
+    <div align="center">
+      <div class="col-md-3 col-md-offset-3">
+        <h4> Apiary API </h4>
+        <a  class = "image" href="http://docs.dameng.apiary.io/" target="_blank">
+          <img src="static/images/apiary_logo.png" style="height: 140px; width: 140px; margin: 20px" align = "center">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <h4> GitHub Repo </h4>
+        <a  class = "image" href="https://github.com/dm37537/cs373-idb" target="_blank">
+          <img src="static/images/github_logo.jpg" style="height: 140px; width: 140px; margin: 20px" align = "center">
+        </a>
+        <h3><b/>Team Stats</h3>
+        <h5/>{{memJson|sum(attribute='member_commit')}} Commits
+        <br>{{memJson|sum(attribute='member_issue')}} Issues
+        <br>{{memJson|sum(attribute='member_unittest')}} Unitests
+        <!-- <div id="teamStat"></div> -->
+      </div>
+    </div>
+    <!-- Apiary & GitHub ends -->
+
+    <!-- leaders -->
+    <!-- <div id="leaders"></div> -->
+    <div class="col-md-12">
+      <hr>
+      <div align = "center">
+        <h2> Group Leaders </h2>
+        {% set leaderNum = 1 %}
+        {% for memDict in memJson|sort(attribute='member_leader') %}
+          {% set isLeader = memDict.member_leader %}
+          <!-- the dict is sorted with member_leader in ascending order -->
+          {% if isLeader != 0 %}
+          <h3>
+            {{leaderNum}}. {{memDict.member_name}}
+            {% set leaderNum = leaderNum + 1 %}
+          </h3>
+          {% endif %}
+        {% endfor %}
+
+      </div>
+      <br><br><br>
+      <hr><br>
+    </div>
+    <!-- members -->
+    {% for memDict in memJson %}
+    <div class="row row-format" align="center">
+      <div class="col-md-7 col-md-offest-10">
+        <img src="{{memDict.member_image}}" alt="Responsive image" class="img-rounded img-response-profile">
+      </div>
+      <div class="col-md-4 col-md-offest-2">
+        <div align="left">
+          <h1><b/>{{memDict.member_name}}</h1>
+          <br>
+          <h4><b/>Bio<br></h4>
+          <h5>
+            {{memDict.member_bio}}
+          </h5>
+          <h4><b/>Major Responsibilities<br></h4>
+          <h5>
+            {{memDict.member_major_responsibility}}
+          </h5>
+          <h4/><b/>Stats
+          <h5/>{{memDict.member_commit}} commit(s)
+          <h5/>{{memDict.member_issue}} issue(s)<br>
+          <h5/>{{memDict.member_unittest}} unittest(s)<br>
+        </div>
+      </div>
+    </div>
+    <hr>
+    {% endfor %}
+{% endblock %}
+{% block footer %}
+  {{super()}}
+{% endblock %}

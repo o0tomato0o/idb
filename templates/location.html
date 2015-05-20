@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+  <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../static/custom.css">
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+{% endblock %}
+{% block content %}
+    <hr>
+    <div class="row row-format text-center">
+      <div class="container-fluid col-md-4 company-format">
+        <img class="circularize img-response-location" src="../{{locJson.location_image}}"/>
+        <h1>{{locJson.location_name}}</h1>
+        <hr>
+        <h3>Description</h3>
+          <p>{{locJson.location_description}}</p>
+
+      <div>
+      	<head>
+      	<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+      	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+      	<title>Google Maps JavaScript API v3 Example: Geocoding Simple</title>
+      	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+      	<script type="text/javascript">
+      	  var geocoder;
+      	  var map;
+      	  var address = "{{locJson.location_name}}";
+      	  function initialize() {
+      	    geocoder = new google.maps.Geocoder();
+      	    var latlng = new google.maps.LatLng(-34.397, 150.644);
+      	    var myOptions = {
+      	      zoom: 9,
+      	      center: latlng,
+      	    mapTypeControl: true,
+      	    mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+      	    navigationControl: true,
+      	      mapTypeId: google.maps.MapTypeId.ROADMAP
+      	    };
+      	    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+      	    if (geocoder) {
+      	      geocoder.geocode( { 'address': address}, function(results, status) {
+      	        if (status == google.maps.GeocoderStatus.OK) {
+      	          if (status != google.maps.GeocoderStatus.ZERO_RESULTS) {
+      	          map.setCenter(results[0].geometry.location);
+      	
+      	            var infowindow = new google.maps.InfoWindow(
+      	                { content: '<b>'+address+'</b>',
+      	                  size: new google.maps.Size(150,50)
+      	                });
+
+      	            var marker = new google.maps.Marker({
+      	                position: results[0].geometry.location,
+      	                map: map, 
+      	                title:address
+      	            }); 
+      	            google.maps.event.addListener(marker, 'click', function() {
+      	                infowindow.open(map,marker);
+      	            });
+
+      	          } else {
+      	            alert("No results found");
+      	          }
+      	        } else {
+      	          alert("Geocode was not successful for the following reason: " + status);
+      	        }
+      	      });
+      	    }
+      	  }
+      	</script>
+      	</head>
+      	<body style="margin:0px; padding:0px;" onload="initialize()">
+      	 <div id="map_canvas" style="width:100%; height:200px;"></div>
+      	</body>
+
+      </div>
+
+   <hr>
+      </div>
+
+      <div class="container col-md-8 company-format">
+        <h3>{{locJson.location_name}} Job Listings</h3>
+          <div class="panel-group" id="accordion">
+            <!-- job panel starts -->
+            {% set panelCounter = 0 %}
+            {% for jobDict in jobJson %}
+              {% set jobID = jobDict.job_id %}
+              {% set jobLocID = jobDict.location_id %}
+              {% set locID = locJson.location_id %}
+              {% if jobLocID == locID %}
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{panelCounter}}">
+                    {{jobDict.job_title}}
+                  </a>
+                </h4>
+              </div>
+            {% if panelCounter == 0 %}
+              <div id="collapse{{panelCounter}}" class="panel-collapse collapse in">
+            {% else %}
+              <div id="collapse{{panelCounter}}" class="panel-collapse collapse">
+            {% endif %}
+            {% set panelCounter = panelCounter + 1 %}
+                <div class="panel-body">
+                  <h2>
+                    {% set cmpyID = jobDict.company_id %}
+                    {% set cmpyID = cmpyID - 1 %}
+                    <a href="/company/{{cmpyJson[cmpyID].company_id}}">{{cmpyJson[cmpyID].company_name}}</a>
+                    <small>
+                      {% set locID = jobDict.location_id %}
+                      {% set locID = locID - 1 %}
+                      <a href="/location/{{locsJson[locID].location_id}}">{{locsJson[locID].location_name}}</a>
+                    </small>
+                  </h2>
+                  <hr>
+                  <h4>Job Description</h4>
+                  <h5>
+                    {{jobDict.job_description}}
+                  </h5>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h4>Required Skill(s)</h4>
+                      <h5>
+                        {% set skillsetID = jobDict.skillsets[0].skillset_id - 1 %}
+                        <a href="/skillset/{{skillsetJson[skillsetID].skillset_id}}">
+                          <button type="button" class="btn btn-default">{{skillsetJson[skillsetID].skillset_name}}</button>
+                        </a>
+                      </h5>
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Required Language(s)</h4>
+                      <h5>
+                        {% set langID = jobDict.languages[0].language_id - 1 %}
+                        <a href="/language/{{langJson[langID].language_id}}">
+                          <button type="button" class="btn btn-default">
+                            {{langJson[langID].language_name}}
+                          </button>
+                        </a>
+                      </h5>
+                    </div>
+                  </div>
+                  <hr>
+                  <a href="/job/{{jobDict.job_id}}">
+                    <button type="button" class="btn btn-default">Show More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <hr>
+{% endblock %}
+{% block footer %}
+  {{super()}}
+    <script src="../static/js/bootstrap.min.js"></script>
+{% endblock %}

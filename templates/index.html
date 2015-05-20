@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+{% endblock %}
+{% block content %}
+       <!-- Jumbotron -->
+<div class="jumbotron vertical-center text-center" id="index-jumbotron">
+  <div class="container content-box jumbotron-text"> 
+    <hr>
+    <h1>Search for jobs</h1>
+    <h4>Look no further. Your dream programming job starts here.</h4>
+    <hr>
+  </div>
+</div>
+<div class="container text-center index-bubbles">
+  <div class="row">
+    <div class="col-md-3">
+      <h3>Languages</h3>
+      <a href="language">
+        <img src="static/images/language_icon.png" style="height: 120px; width: 120px">
+      </a>
+    </div>
+    <div class="col-md-3">
+      <h3>Skillsets</h3>
+      <a href="skillset">
+        <img src="static/images/skillset_icon.png" style="height: 120px; width: 120px">
+      </a>
+    </div>
+    <div class="col-md-3">
+      <h3>Companies</h3>
+      <a href="company">
+        <img src="static/images/company_icon.png" style="height: 120px; width: 120px">
+      </a>
+    </div>
+    <div class="col-md-3">
+      <h3>Locations</h3>
+      <a href="location">
+        <img src="static/images/location_icon.png" style="height: 120px; width: 120px">
+      </a>
+    </div>
+  </div>
+</div>
+<br><br><br>
+
+<div class="jumbotron vertical-center text-center" id="stat-jumbotron">
+  <div class="row">
+    <div class="col-md-5 jumbotron-text" style="margin-left: 6%; margin-bottom: 4%">
+      <h1>Growing demand for developers</h1>
+      <h4>Demand for software development is currently the strongest and it is expected to grow 28% to 32% within the next 10 years.</h4>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center" id="quote">
+  <h2>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</h2>
+  <h2><i>-- Martin Fowler</i></h2>
+</div>
+
+<div class="jumbotron vertical-center text-center" id="environment-jumbotron">
+  <div class="row">
+    <div class="col-md-6">
+    </div>
+    <div class="col-md-5 jumbotron-text" style="margin-bottom: 4%">
+      <h1>Great Work Environment</h1>
+      <h4>On top of having an average salary of $80,000 and median of $76,000, majority of programmers have flexible work hour and stree-relieving work environment.</h4>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center" id="quote">
+  <h2>"Investing in tomorrow's technology today is more critical than ever..."</h2>
+  <h2><i>-- Bill Gates</i></h2>
+</div>
+
+<div class="jumbotron vertical-center text-center" id="tech-jumbotron">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 jumbotron-text" style="margin-bottom: 4%">
+      <h1>Adopt & Adapt</h1>
+      <h4>Through constant updates and pioneering of technologies, after years of working, work will still feel fresh and exciting.</h4>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="container text-center" style="margin: 5%">
+    <h1>
+      <p>Interested?</p>
+      Look for a job now!
+    </h1>
+    <form action="/search">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for..." name="query">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<hr>
+{% endblock %}
+{% block footer %}
+  {{super()}}
+{% endblock %}

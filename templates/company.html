@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+  <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../static/custom.css">
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+  
+{% endblock %}
+{% block content %}
+<br><br>
+<div class="row row-format text-center">
+  <div class="container-fluid col-md-4 company-format">
+    <a href="http://{{cmpyJson.company_site}}" target="_blank">
+      <img class="company-logo" src="../static/{{cmpyJson.company_image}}">
+    </a>
+    <h1>{{cmpyJson.company_name}}</h1>
+    <a href="http://{{cmpyJson.company_site}}" target="_blank">{{cmpyJson.company_site}}</a>
+    <hr>
+    <h3>Description</h3>
+    <p>{{cmpyJson.company_description}}</p>
+    <hr>
+
+    <a class="twitter-timeline" href="https://twitter.com/{{cmpyJson.company_name}}" data-widget-id="{{cmpyJson.twitter_id}}">
+      Tweets by @{{cmpyJson.company_name}}
+    </a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+
+
+  </div>
+  <div class="container col-md-8 company-format">
+    <h3>{{cmpyJson.company_name}} Job Listings</h3>
+    <div class="panel-group" id="accordion">
+      <!-- job panel starts -->
+      {% set panelCounter = 0 %}
+        {% for jobDict in jobJson %}
+        {% set jobID = jobDict.job_id %}
+        {% set jobCmpyID = jobDict.company_id %}
+        {% set cmpyID = cmpyJson.company_id %}
+        {% if jobCmpyID == cmpyID %}
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{panelCounter}}">
+              {{jobDict.job_title}}
+            </a>
+          </h4>
+        </div>
+        {% if panelCounter == 0 %}
+        <div id="collapse{{panelCounter}}" class="panel-collapse collapse in">
+        {% else %}
+        <div id="collapse{{panelCounter}}" class="panel-collapse collapse">
+        {% endif %}
+          {% set panelCounter = panelCounter + 1 %}
+          <div class="panel-body">
+            <h2>
+              {% set cmpyID = jobDict.company_id %}
+              {% set cmpyID = cmpyID - 1 %}
+              <a href="/company/{{cmpysJson[cmpyID].company_id}}">{{cmpysJson[cmpyID].company_name}}</a>
+              <small>
+                {% set locID = jobDict.location_id %}
+                {% set locID = locID - 1 %}
+                <a href="/location/{{locJson[locID].location_id}}">{{locJson[locID].location_name}}</a>
+              </small>
+            </h2>
+            <hr>
+            <h4>Job Description</h4>
+            <h5>
+              {{jobDict.job_description}}
+            </h5>
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <h4>Required Skill(s)</h4>
+                <h5>
+                  {% set skillsetID = jobDict.skillsets[0].skillset_id - 1%}
+                  <a href="/skillset/{{skillsetJson[skillsetID].skillset_id}}">
+                    <button type="button" class="btn btn-default">{{skillsetJson[skillsetID].skillset_name}}</button>
+                  </a>
+                </h5>
+              </div>
+              <div class="col-md-6">
+                <h4>Required Language(s)</h4>
+                <h5>
+                {% set langID = jobDict.languages[0].language_id - 1 %}
+                  <a href="/language/{{langJson[langID].language_id}}">
+                    <button type="button" class="btn btn-default">
+                      {{langJson[langID].language_name}}
+                    </button>
+                  </a>
+                </h5>
+              </div>
+            </div>
+            <hr>
+            <a href="/job/{{jobDict.job_id}}">
+              <button type="button" class="btn btn-default">Show More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+
+{% endblock %}
+{% block footer %}
+{{super()}}
+<script src="../static/js/bootstrap.min.js"></script>
+{% endblock %}

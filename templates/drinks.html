@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+	
+  <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../static/custom.css">
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+{% endblock %}
+{% block content %}
+<div class="container">
+	{% if drinks_lst %}
+	<div class="row text-left">
+		<form action="/api/freespirit" method=post>
+		{% for elem in drinks_lst %}
+		<div class="col-md-3 vertical-left">
+		    <p><input type=checkbox name=lst value="{{ elem }}" >{{ elem }}</p>		    
+		</div>
+	    {% endfor %}	
+	    <input class="btn btn-large btn-primary" style="position:fixed;" type='submit' name='submit' value='See my shopping list' >
+	    </form>
+	</div>
+    {% endif %}
+
+    {% if ingredients_result %}
+
+		<br><br>
+		<div class="container content-box round" style="text-align:center;">
+	      <hr>
+	      <h1>My Shopping List</h1>
+	      <hr>
+	    </div>
+		<br><br>
+	<div class="row text-left">
+		{% for elem in ingredients_result %}
+		<div class="col-md-3 vertical-left">
+			<h4>{{ elem }}</h4>
+		</div>
+		{% endfor %}
+	</div>
+	{% endif %}
+</div>
+
+{% endblock %}
+{% block footer %}
+  {{super()}}
+{% endblock %}

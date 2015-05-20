@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+{% endblock %}
+{% block content %}
+    <div class="container">
+      <div class="jumbotron locations-jumbotron vertical-center text-center" id="locations-jumbotron">
+        <div class="container content-box">
+          <hr>
+          <h1>Locations</h1>
+          <h4>Search jobs by popular locations</h4>
+          <hr>
+        </div>
+      </div>
+      <div class="row text-center">
+        {% for locDict in locJson %}
+        <div class="col-md-4">
+          <a href="location/{{locDict.location_id}}">
+            <h3 style="font-size: 30px">{{locDict.location_name}}</h3>
+            <hr>
+            <img class="circularize blur img-response" src="{{locDict.location_image}}">
+            <hr>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <hr>
+{% endblock %}
+{% block footer %}
+  {{super()}}
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block head %}
+  {{super()}}
+{% endblock %}
+{% block navbar %}
+  {{super()}}
+{% endblock %}
+{% block content %}
+    <div class="container locations-format">
+      <!-- Header -->
+      <div class="jumbotron languages-jumbotron vertical-center text-center" id="languages-jumbotron">
+        <div class="container content-box">
+          <hr>
+          <h1>Languages</h1>
+          <h4>Search jobs by popular languages</h4>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col=md=12 col-md-offset-1 row">
+          <!-- {% set count = 1 %} -->
+          {% for n in range(0, 5) %}
+            <!-- {{count}} -->
+            <div class="image">
+              <div class="col-md-2">
+                <a href="language/{{langJson[n].language_id}}">
+                  <img height="150" src="static/{{langJson[n].language_image}}" class="img-rounded" style="margin: 30px">
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="col=md=12 col-md-offset-1 row">
+          <!-- {% set count = 1 %} -->
+          {% for n in range(5, 10) %}
+            <!-- {{count}} -->
+            <div class="image">
+              <div class="col-md-2">
+                <a href="language/{{langJson[n].language_id}}">
+                  <img height="150" src="static/{{langJson[n].language_image}}" class="img-rounded" style="margin: 30px">
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <hr>
+{% endblock %}
+{% block footer %}
+  {{super()}}
+{% endblock %}

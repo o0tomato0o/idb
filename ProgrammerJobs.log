@@ -1,0 +1,1081 @@
+commit a5a99d1f2f20d62b1684c06694f6afedca61e05f
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Thu Mar 26 20:47:28 2015 -0500
+
+    updated numbers
+
+commit 4c19c27755d624fa6e4aa8046f8540f45d9d6710
+Author: unknown <dameng@utexas.edu>
+Date:   Thu Mar 26 20:16:56 2015 -0600
+
+    rename
+
+commit 14763eb3c2ec8132e55c1f7dfe9f3667b3099b19
+Merge: 027d19b 7485a76
+Author: Kevin Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 27 00:57:18 2015 +0000
+
+    documentation created with pydoc
+
+commit 027d19b14dc583fd9fe92bd0d5a007827d70eecc
+Author: Kevin Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 27 00:56:11 2015 +0000
+
+    documentation created with pydoc
+
+commit 7485a762bf10c4c384ee70848590566af04d9c59
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:35:57 2015 -0600
+
+    Delete config.pyc
+
+commit 436c63163b8ba67f83b1a5ae76d6c9cf5de83cf6
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:35:19 2015 -0600
+
+    Delete models.pyc
+
+commit 5903529e5431fca5dae37e4f1022ea9ec2f6e8bb
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:35:07 2015 -0600
+
+    Delete programmerJobs.pyc
+
+commit 97b9736c258f033f255cb3e8427727a8baa933b1
+Merge: 78da69a b753988
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 26 18:26:49 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 78da69a36732c2dfce31019eca950decc61b38fd
+Merge: 2efd276 2e91813
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 26 18:26:28 2015 -0500
+
+    merge conflict
+
+commit b753988f6bb90863ebe4b4a2489f0b1c31cfea50
+Merge: 3e2525d 862a25b
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:23:23 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 3e2525dd8b164b1034b761b90330b767cb2607ec
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:23:06 2015 -0500
+
+    run test
+
+commit 862a25b103e88bfb631a6c32a3210e798dcf339d
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Thu Mar 26 18:22:54 2015 -0500
+
+    tech report pdf
+
+commit 2efd276fa2a3fd2a850a35d8411e54a591b8a435
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 26 18:22:24 2015 -0500
+
+    Documentation and spacing
+
+commit 2e91813658692c4dfa47a356acb67bb71ff06df3
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:18:49 2015 -0500
+
+    run
+
+commit a7013c28b41401e11caa2a9d3fa1a852fbc5fe79
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:17:57 2015 -0500
+
+    run tset
+
+commit 318a2bb56b8356d37d512a56e70b56ec89fc81df
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:14:07 2015 -0500
+
+    run test
+
+commit ebafaea1cd4fbb7fa7f3a1ebb919c4e76b33e97b
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:12:15 2015 -0500
+
+    test
+
+commit 8986a0ddb5c1259bed00e6940eaa73bafdd3e0c2
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 18:06:39 2015 -0500
+
+    test php
+
+commit f9c2e1a7adb8a223efc8e0d5caa7654e3357ba60
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 17:57:11 2015 -0500
+
+    indent
+
+commit 7f126f7384879d757baf3972d878c7daa6d0abde
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 17:55:17 2015 -0500
+
+    test file
+
+commit 5c80673a7851e13d32bc525e3212839b7d489db3
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 17:49:40 2015 -0500
+
+    test
+
+commit eb23b3c38ccabb9f398c36ebe6d2588928dc4967
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 17:39:15 2015 -0500
+
+    test page
+
+commit 30b7d9752258bfc6cdd3fe658273770007c4e49d
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 26 16:51:11 2015 -0500
+
+    fixed name changes in API
+
+commit f044eb0ead96fc84fb070145fab69136445a23b2
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 16:48:04 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit df2ce3d62b113fd7ce1fd9ead35c8f523fcc7036
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 16:47:14 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit 6bf03f99d997091332564c2df3d9df6af9a5960d
+Author: bsy6766 <bsy6766@gmail.com>
+Date:   Thu Mar 26 16:42:26 2015 -0500
+
+    updated numbers
+
+commit 678527bef036a8ddc87f4dc404fb82d6682792cb
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 26 16:41:55 2015 -0500
+
+    Changed Company_ID to company_ID in API
+
+commit 0c616689916cb760ead2f7af3060852c6eabe55a
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 26 16:38:34 2015 -0500
+
+    host address fixed again.
+
+commit ec1217b23ef31b5b8658c3e7ce526f60675c882d
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 26 16:26:00 2015 -0500
+
+    fixed ref for index.html
+
+commit 8af5d2619ff8677c2d433b89fb98bd1ddb4ed0db
+Author: bsy6766 <bsy6766@gmail.com>
+Date:   Thu Mar 26 16:21:42 2015 -0500
+
+    removed listgroup.js
+
+commit e31b5a019a028cd1361b379ebe0c6cf8c3b86315
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 26 16:19:50 2015 -0500
+
+    test fixing links for index.html
+
+commit a92b1b69462e895b4fe1f753e5f0a6b1aeaae7de
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 26 16:15:29 2015 -0500
+
+    fixed links
+
+commit d9bfccbdbac9d2d1edf5c40b06d24e4fcf12ec51
+Author: Kevin Valle <kevinosvaldovalle@gmail.com>
+Date:   Thu Mar 26 21:10:24 2015 +0000
+
+    redirecting to index.html
+
+commit 6e5d430394ef273c0f4e53ede3a604d8fd78fc64
+Author: Kevin Valle <kevinosvaldovalle@gmail.com>
+Date:   Thu Mar 26 20:58:40 2015 +0000
+
+    forgot an import
+
+commit acd8733aa189483cd1f09b0fe086b4b98505b004
+Author: Kevin Valle <kevinosvaldovalle@gmail.com>
+Date:   Thu Mar 26 20:55:54 2015 +0000
+
+    redirect from root
+
+commit bbf49005261852e9945ea2d7ffe59e99a9f8e227
+Author: Kevin Valle <kevinosvaldovalle@gmail.com>
+Date:   Thu Mar 26 14:45:51 2015 +0000
+
+    Connected application to a database
+
+commit 8f8e157629d43affa0989efe5285c9384c42ca56
+Merge: a27a529 5d26851
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 26 02:41:42 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit a27a5297ecead56baae7446fe1fb201636c467fe
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 26 02:41:07 2015 -0500
+
+    Wrote model unit tests
+
+commit 5d26851af865517fc9e83f307cfa6044c6f4e3c8
+Merge: d98ea4b 7c84273
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Wed Mar 25 22:48:48 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit d98ea4b0fbc859a50bb131a787d99a24ee0b15b9
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Wed Mar 25 22:48:43 2015 -0500
+
+    changed individual job page related job categories
+
+commit 7c84273ac05a67928c6b66e7a71f568a0f8a9a17
+Author: Da Meng <dameng@utexas.edu>
+Date:   Wed Mar 25 22:19:03 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit 767908649f707770605828ff1e4a7cf2c1b38ecb
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Wed Mar 25 21:55:15 2015 -0500
+
+    UML model generated.
+
+commit 4cc53fb930ae5328824c98faaef915a6b85f0d47
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Wed Mar 25 21:35:03 2015 -0500
+
+    UML model generated.
+
+commit 2583e149bf387d11cd2c866e26191659daa45e76
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Wed Mar 25 21:32:47 2015 -0500
+
+    fixed typo
+
+commit 006d83f663bf33d4d0061af3d17199e300ca15d0
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Wed Mar 25 21:31:40 2015 -0500
+
+    added total stat
+
+commit 800f7e766df2a6c9ba4cb9476c654af0b308a84d
+Author: Da Meng <dameng@utexas.edu>
+Date:   Wed Mar 25 21:08:47 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit 07421856005aa419df5d5089b767136017bb70a1
+Author: Da Meng <dameng@utexas.edu>
+Date:   Wed Mar 25 21:08:24 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit 1c0b4a9a278597700da7e5f94e2f21d6386f447a
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Wed Mar 25 21:07:37 2015 -0500
+
+    UML model generated.
+
+commit 70219197139391330ae714cba1bdb75648013ac3
+Author: Da Meng <dameng@utexas.edu>
+Date:   Wed Mar 25 21:06:09 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit db84428fd36d1e31e7cb95cda616c75c65b98ad5
+Author: Da Meng <dameng@utexas.edu>
+Date:   Wed Mar 25 21:05:42 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit 62877ca14c69ae3ff07fb36e64066b1324936297
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Wed Mar 25 21:00:39 2015 -0500
+
+    fixed about.html
+
+commit 0aaa9b6070a4830fc802b9a290168497fe8093ad
+Author: Da Meng <dameng@utexas.edu>
+Date:   Wed Mar 25 20:42:30 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit 1d1b3ba35fc68d2f159e66cfd821fcf242d9087f
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Wed Mar 25 19:09:57 2015 -0500
+
+    jsons now have consistancy.
+
+commit c686ca42cb4575891b148138b37ecdfff54dbf79
+Author: bsy6766 <bsy6766@gmail.com>
+Date:   Wed Mar 25 19:07:57 2015 -0500
+
+    fixed for skillset also
+
+commit 564794681c4a1b88fceffaea67578e3126450788
+Author: bsy6766 <bsy6766@gmail.com>
+Date:   Wed Mar 25 19:01:25 2015 -0500
+
+    fixed image
+
+commit 23c69952e0b3cb06c193a3e36ba542fc0e766437
+Merge: 7bcea25 a58c5a1
+Author: bsy6766 <bsy6766@gmail.com>
+Date:   Wed Mar 25 18:50:05 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 7bcea250e54782080d537872e1ca97dba273f915
+Author: bsy6766 <bsy6766@gmail.com>
+Date:   Wed Mar 25 18:49:53 2015 -0500
+
+    fixed format
+
+commit a58c5a16bd91c176304d6a48313d44f504b3b655
+Author: Kevin Valle <kevinosvaldovalle@gmail.com>
+Date:   Wed Mar 25 23:23:13 2015 +0000
+
+    attempting to set home page
+
+commit c7016e330122a3d1e1c66fe9c4f301353249349a
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Wed Mar 25 18:06:26 2015 -0500
+
+    added github link
+
+commit 3d5f7f5a4039d6b6dea508d76a6901e52eae218f
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Tue Mar 24 23:44:07 2015 -0500
+
+    added Kevin Valle's profile
+
+commit 16a363ce689334c6b4481c9b4c7162b84a917d5e
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Tue Mar 24 14:49:13 2015 -0500
+
+    fixed wrong br
+
+commit 3d4098c878fcbd673f13e2f1ee1c06d8ab832cdd
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Tue Mar 24 14:48:55 2015 -0500
+
+    added photo. updated infos
+
+commit b496a74d8e48302c9d58860a80faaeb78e3e4683
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Tue Mar 24 14:12:25 2015 -0500
+
+    minor fix
+
+commit a7ccec27b1bdc2ef36cd20c5306a400f94b9ce54
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Tue Mar 24 14:12:05 2015 -0500
+
+    removed apply btn, replaced with show more btn
+
+commit 1d1e0adb24cfd4eb6c8503b1e0675611a3fc3713
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Tue Mar 24 13:57:02 2015 -0500
+
+    removed apply btn. added link btn to job page
+
+commit da36d46683e693a7664b55b1263ae3a3c276c8f8
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Tue Mar 24 13:56:44 2015 -0500
+
+    linked both c and c++ to c/c++ page
+
+commit 02adbc01fd1ab2ddbad3fda8329d4104ba0a9e3d
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 13:27:25 2015 -0500
+
+    about link is fixed
+
+commit 80c056dc39da90c8d3b295324f61d03e473d61a9
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 13:24:15 2015 -0500
+
+    companies to match john's style
+
+commit d4c6b9f4a9456e1d34eb9b606c117e22481e3196
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 12:07:29 2015 -0500
+
+    quick fix
+
+commit 87cd65abfe93463d2dcfad10a8204cbacfc1c950
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 11:46:36 2015 -0500
+
+    locations matching john's style
+
+commit 29ac29777b6bb93638788c0d050a8f4cedd87dcd
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 01:47:40 2015 -0500
+
+    misspelled description; fixed it
+
+commit f33c8d55486e59bf8338ecd351e570554d826ec7
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 01:42:18 2015 -0500
+
+    minor fix for button spacing
+
+commit 30b4248de83bf2785dadb2c2efb68c9b5e22e83d
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 01:32:28 2015 -0500
+
+    created show more button that links to individual job pages
+
+commit 6e37d2cf115eb220eac2cacfe53b6fb6e875a681
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 00:23:06 2015 -0500
+
+    navbar was wrong so had to fix it for every file
+
+commit 5db52a055f78ae512940896e380fb390c830c9d0
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Tue Mar 24 00:17:32 2015 -0500
+
+    added individual jobs upto job_id 10
+
+commit a5e2e2211aab9fcacbb79e97144b4a00b09cf68b
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 20:06:38 2015 -0500
+
+    fixed team name
+
+commit 2afd2b04d2b9a27b2dcecc665d00c59b758e0c3d
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 20:01:11 2015 -0500
+
+    fixed padding
+
+commit 18d10a8ec07f037a0e4a5ace546be69e40723ccb
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 19:43:15 2015 -0500
+
+    minor fix. Apply button opens new tab
+
+commit fd2eabbeb2ee1f070b20be3a7b4e97429d212f7b
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 17:12:57 2015 -0500
+
+    fixed navbar link
+
+commit 0d3b90d37cbeae50d417a9a2bccb409805c53815
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 17:10:15 2015 -0500
+
+    changed name
+
+commit ec3b161f86c25a4c8885e53e208fade750e6efc0
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 17:09:41 2015 -0500
+
+    fixed navbar link, removed unused images
+
+commit d5da7142618d3cc1475cf700f387f8b023b185a4
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 16:48:47 2015 -0500
+
+    fixed team name
+
+commit b5f4ab36efba83a46fcb86b047f48308933114f5
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 16:45:32 2015 -0500
+
+    initial commit. Skillset pages
+
+commit 49ffbfaad30b5fc426958d3d7c311e2de9330a5c
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 16:45:00 2015 -0500
+
+    minor fixes
+
+commit d51980f421304d180b9a03985a4f98be2cea2561
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 16:44:47 2015 -0500
+
+    updated skillset and fixed format
+
+commit e8bccdc3ba7cc807a9042e4cc776e90871cdf946
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Mon Mar 23 16:43:58 2015 -0500
+
+    added Da Meng
+
+commit b26ffd7cf1e0e02f8cda1b13b8be47ad47ace106
+Author: unknown <dameng@utexas.edu>
+Date:   Mon Mar 23 14:18:10 2015 -0600
+
+    update job.json
+
+commit 3962122fc72c6c744e8e3816405798f0ffcd6020
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Mon Mar 23 12:46:16 2015 -0500
+
+    Starting model unit tests
+
+commit febb60e8a056c8cba0fb7560dca4cd3afce0bec7
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Mon Mar 23 11:41:28 2015 -0500
+
+    all jobs are added.
+
+commit ad8d0908970cebffda6357bf9d6492870ecae564
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Mon Mar 23 09:54:36 2015 -0500
+
+    linkedin jobs are added.
+
+commit c56a2e0eea81a7b8bdddb3f11d966252bd9197af
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Mon Mar 23 09:42:07 2015 -0500
+
+    twitter jobs are added. facebook jobs are to be added as well.
+
+commit dfeed55a0e02842d687ab144e28203e3d65f6d01
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Sat Mar 21 12:25:25 2015 -0500
+
+    resized to width 1000px. faster load/render
+
+commit 0b07ba7b1119fae13255d23f814310bad591fe23
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Sat Mar 21 12:24:30 2015 -0500
+
+    linked to proper company pages
+
+commit 94c5b886bd6cd8df85eda7c7195ebf0894336336
+Author: Da Meng <dameng@utexas.edu>
+Date:   Fri Mar 20 21:52:28 2015 -0500
+
+    add jobs
+
+commit 45412dbd9e825cb683c6015b43b9e452481cfd04
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Fri Mar 20 18:12:02 2015 -0500
+
+    minor fix
+
+commit 9b0c4a31652a61e9352f3c4efebdba0dd8efdd38
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Fri Mar 20 18:11:50 2015 -0500
+
+    replaced req. skillset to req. language
+
+commit 981cab0ce142a117f52fedbb36ba81a0ac3259bf
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Fri Mar 20 18:04:48 2015 -0500
+
+    adding first skillset page(mobile comp)
+
+commit f14b3502ef01c1cee01e54636df00bebe478c520
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Fri Mar 20 18:03:48 2015 -0500
+
+    format fixed
+
+commit 969305b2b9f6e009e6ead6b83e4e7a1601ce7069
+Author: Da Meng <dameng@utexas.edu>
+Date:   Fri Mar 20 16:20:10 2015 -0500
+
+    modify description
+
+commit 29ff5a00f2cfc62da4e070df32299808c45c7797
+Merge: 1fb1b30 fa8b04a
+Author: Da Meng <dameng@utexas.edu>
+Date:   Fri Mar 20 16:13:55 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 1fb1b30be22939cac6bab540eb2531c03768497a
+Author: Da Meng <dameng@utexas.edu>
+Date:   Fri Mar 20 16:13:16 2015 -0500
+
+    rm files
+
+commit fa8b04a40cde2faddc8c228a88da462931f1e7e8
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 20 02:16:07 2015 -0500
+
+    Configured SQLAlchemy
+
+commit 5d9bb3bf29e857258dce9c63c6f390acb052cf88
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 20 02:15:40 2015 -0500
+
+    Set up manage.py to manage runnung the server
+
+commit 1a823fb4fb9e2f3b23dde222e024a4556e7ad000
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 06:27:47 2015 -0500
+
+    modified nav bar so that it's working for every page
+
+commit afd4c8bf284ccd86ac67f3b36ba29ffabe5f7b66
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 05:39:26 2015 -0500
+
+    sorry forgot to add this--I was sleepy
+
+commit 2f86c24332634bd5880748f67464c658341bf15f
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 05:29:43 2015 -0500
+
+    properly linked and corrected responsiveness
+
+commit f6a23692c1b241d1881cce0baa2d132b98c6ef3b
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 05:27:42 2015 -0500
+
+    added new pictures to be faster
+
+commit 67610c166b7b0bfaf428aee5a1b6ded1686f8cb4
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 04:11:07 2015 -0500
+
+    forgot to add css stylesheet
+
+commit 06d5352441eddd54ecc4d824b4bf41700b670c11
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 04:10:28 2015 -0500
+
+    removed unnecessary files
+
+commit d0a1624f0df0ee3214be51b9ad8db83ab714b362
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 04:08:42 2015 -0500
+
+    changed name of sf location; corrected responsiveness
+
+commit f9af7b71756aeef2839df95b7699bc411e430abd
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 04:07:04 2015 -0500
+
+    replacing with new icon images
+
+commit 259a756dad26a9c95545409c2bf9c543f44266b6
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 03:02:01 2015 -0500
+
+    linked companies and languages
+
+commit a021e2c7a8ebdc5b395dc594cf923f6e6a21c076
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sun Mar 15 01:40:11 2015 -0500
+
+    had to change the format for responsiveness. will figure it out later if have time
+
+commit aa3a3099cf69d8f69905e9a11c5943e2ac1479ee
+Merge: 50f3fa1 798a727
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sat Mar 14 19:44:43 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 50f3fa193905ce311f048489701ff442b1665ffd
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Sat Mar 14 19:43:54 2015 -0500
+
+    fixed splash page responsiveness
+
+commit 798a72762a4cf3e848939e34f734d9d5c3db6a5a
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Sat Mar 14 17:33:16 2015 -0500
+
+    align fix
+
+commit 692ba70ca3309720e39ff57d1b88ddefc1cf5772
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Sat Mar 14 17:23:23 2015 -0500
+
+    changed image to local image. instant loading
+
+commit 93c33519a323e97942d460f9965e94b54c12b78d
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Sat Mar 14 17:19:19 2015 -0500
+
+    changed to new images
+
+commit f8b59961da04f3f5ae2ae300d9d4075abb8e7e3e
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Sat Mar 14 17:18:17 2015 -0500
+
+    new image, resized for static page
+
+commit 2d46eb5d840a692e256bb4b888ac8670ece35047
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 13 22:01:19 2015 -0500
+
+    implemented the rest of the GET endpoints
+
+commit cfe3b5fded9022f1aec66bd02e337261b6664edc
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 13 21:36:46 2015 -0500
+
+    implemented company GET endpoint
+
+commit b0704b08afc99c8d4e2825dbba636f6a6f539c33
+Merge: 5cd2bc6 3b09256
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 13 20:56:19 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 5cd2bc667728847004a969189f223fe6f433b4db
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 13 20:55:48 2015 -0500
+
+    Job GET endpoint finished
+
+commit a0440e50e73480e10f6ab56627e80e92c0661051
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 13 20:55:11 2015 -0500
+
+    Added configuration files to differentiate between environments
+
+commit ede39b2fefad9517533b72c7de78dff608e4361a
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Fri Mar 13 20:53:59 2015 -0500
+
+    Fixed multilines in Job.json
+
+commit 3b09256d554476e06dd184a6e726ad56398b8380
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Fri Mar 13 04:21:24 2015 -0500
+
+    list of companies
+
+commit df6de347f5018629e340b97c0b252b9df4616f34
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Fri Mar 13 04:20:39 2015 -0500
+
+    adding three companies
+
+commit cf66bf59a14ef18193e7ab15c23fc39705cb0b45
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Thu Mar 12 18:03:26 2015 -0500
+
+    adding info
+
+commit 0dbbeebfe9aa7e4f8cd1ccd5c7e3f18c6aedd2f4
+Merge: 3431661 cdc4dd5
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 12 18:01:10 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 3431661c06e9c386e00275b12799feb39ff311b2
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 12 18:00:50 2015 -0500
+
+    Started implementing API functionality
+
+commit cdc4dd552f7c0e96a3360166ffcbf2c037b9de27
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 12 17:48:58 2015 -0500
+
+    hovering text effect in locations
+
+commit ec54134d3fa6c6b1def0357b43ae99b175706a01
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Thu Mar 12 17:40:01 2015 -0500
+
+    languages update
+
+commit 877f51b47c7b6803c393db1489f370567bc90410
+Merge: 44405e0 40cdc3b
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 12 17:29:08 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 40cdc3bef3389a620ac809ad69a4d45434befa15
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Thu Mar 12 17:22:50 2015 -0500
+
+    moved to folder
+
+commit 6e44a34a60621604481de17357db34860c7d7b18
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Thu Mar 12 17:14:23 2015 -0500
+
+    new langs, minor fixes
+
+commit 12df9275fe67cbb1a00cbd9808b51f41b0243892
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 12 17:11:50 2015 -0500
+
+    added jobs
+
+commit 44405e096e4d1a9609f354b5f700811e9258739d
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 12 16:54:11 2015 -0500
+
+    organized files so had to change links
+
+commit a25379d5f149e0662781ba72ef3616c2371261e7
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 12 16:50:12 2015 -0500
+
+    added three static location pages
+
+commit b04abe4e7f16dc9ea9dc89fd1df806ba62d066f8
+Merge: 344a514 6fabeb1
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 12 16:36:11 2015 -0500
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+
+commit 344a5144a484fe3c50b3f18b29858e993fa45db5
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 12 16:35:52 2015 -0500
+
+    modify
+
+commit 6fabeb16b5c2bfe51415c065f8b6ece06a746682
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 12 15:34:32 2015 -0500
+
+    took out rating and review inside company page
+
+commit 67c6d4461d9d8ea2264823ed4e9e78fb05779593
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Thu Mar 12 14:02:32 2015 -0500
+
+    minor fix
+
+commit ba4df872136d1c37211972fb6c1c91003264a25c
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Thu Mar 12 13:43:19 2015 -0500
+
+    linked about.html
+
+commit 771ffa24444bdfcd5a170d73c803cce199543747
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 20:23:48 2015 -0500
+
+    update
+
+commit a71171d60b4eb6c79cf15b37b050c45e7b0ce039
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 20:23:13 2015 -0500
+
+    added lang format
+
+commit 8720143d5fd4bcbd948526144adff71ce2cd49cd
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 20:22:54 2015 -0500
+
+    c page
+
+commit d6cdb7c2f84eed8f69df0bba0f3667e8c50fe68b
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 20:22:41 2015 -0500
+
+    few language logos
+
+commit 1a7f7b3e59fbbe652154135d203b0cd132195830
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 19:07:00 2015 -0500
+
+    updated
+
+commit 1b3a9d51c5b0d37f6d6e96caa61bdd3dedcbe34b
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 16:46:37 2015 -0500
+
+    changed image
+
+commit 296624dc1fcd3f37c1d64d50d7ee4cd18af50dcc
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 16:44:13 2015 -0500
+
+    add link to languages.html
+
+commit 59b550f453f5f6aadd10a50850ebf0803dd1b51d
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 16:42:57 2015 -0500
+
+    added image mouse over zoom effect
+
+commit aef5028491c2c717ab2be5ad3918bdd626079ceb
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 16:42:38 2015 -0500
+
+    just adding
+
+commit 48b9dcb7d7274df36b89eaeea14429410cb301db
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 16:33:03 2015 -0500
+
+    adding sample icons. this can be change anytime
+
+commit 67288f9a8d982377e66dc2809d9c2efaff06858f
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 16:31:31 2015 -0500
+
+    apiary, sample profile images
+
+commit 5cee12666c2975d993b83cedda174f6b59c9066f
+Author: Da Meng <dameng@utexas.edu>
+Date:   Mon Mar 9 15:30:16 2015 -0600
+
+    Delete README.md~
+
+commit 99a8b7155bfc1f5d5fcf0ba27dbbf583ff949f8b
+Author: Da Meng <dameng@utexas.edu>
+Date:   Mon Mar 9 15:30:06 2015 -0600
+
+    Delete Company.json~
+
+commit be446796224ccd5af6706f52ff4d021eb2a820dc
+Author: Da Meng <dameng@utexas.edu>
+Date:   Mon Mar 9 15:29:53 2015 -0600
+
+    Delete Location.json~
+
+commit 7c7ac1e762cac9bcf049b56616bb55a279dda0c9
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 16:24:00 2015 -0500
+
+    initial commit. linked about page
+
+commit 214b08af04c01ad6b7ddcca7ccb45b17461653e1
+Author: Seung Youp Baek <bsy6766@gmail.com>
+Date:   Mon Mar 9 15:51:55 2015 -0500
+
+    initial commit
+
+commit f3543a1f675a2746b31dc5f166f9a4d3d2c77491
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Fri Mar 6 15:35:31 2015 -0600
+
+    forgot bootstrap files
+
+commit ba2db6265b3134b288b37e12c1f7684520bbcdd5
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Fri Mar 6 06:50:21 2015 -0600
+
+    added companies, company, and locations and linked them
+
+commit 425cfebc064a4343eda67c3762969d1be440c1b4
+Author: Samuel Park <sparkhee@gmail.com>
+Date:   Thu Mar 5 22:10:08 2015 -0600
+
+    skeletal splash page
+
+commit 1f3ca14ed64d0d326be214207f1c030125058805
+Merge: 018cf7d 0bdc652
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Thu Mar 5 22:07:52 2015 -0600
+
+    Location.json finished.
+
+commit 018cf7d6ab04ce8a8eab0ddb708522f8c506a221
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Thu Mar 5 22:03:26 2015 -0600
+
+    location.json finished.
+
+commit 0bdc652ebd7c0338cf26fc2facb5f8fb35d69ef1
+Merge: 59e1ba3 f6883d8
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 5 21:54:43 2015 -0600
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+    
+    Again?
+
+commit f6883d88d2be548529b8234df63dc4971c8751ba
+Author: jin kim <jhk924@cs.utexas.edu>
+Date:   Thu Mar 5 21:53:55 2015 -0600
+
+    Company.json finished.
+
+commit 59e1ba3dd8942e5ff4eac3cfab88adaefd926cec
+Merge: 21af1e8 6dab347
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 5 21:53:21 2015 -0600
+
+    Merge branch 'master' of https://github.com/dm37537/cs373-idb
+    
+    ummmmm, why is there a conflict?
+
+commit 21af1e8e1c4cc6d1d69c0bfe188ad5b6422a2451
+Author: Kevin-Valle <kvalle@cs.utexas.edu>
+Date:   Thu Mar 5 21:47:25 2015 -0600
+
+    created Job, Company, and Language models
+
+commit 6dab347e8cbd00c1f606d9ae4678200e9ac40896
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 5 21:34:02 2015 -0600
+
+    added skill set data
+
+commit de42a6fd10dc810c43e1fd552269706ec79bfcf7
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 5 21:30:00 2015 -0600
+
+    add language data
+
+commit b6fd5c0ffb221ec71e0975d686f0b2108cf52dd9
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 5 21:23:10 2015 -0600
+
+    added location data
+
+commit 5c5d128865f4dcde6743783bb3bfbb8f79fbf104
+Author: Da Meng <dameng@utexas.edu>
+Date:   Thu Mar 5 21:07:47 2015 -0600
+
+    add companies
+
+commit bdde058af7d40d34822718bb01561997a61b08ff
+Author: Kevin-Valle <kevinosvaldovalle@gmail.com>
+Date:   Thu Mar 5 16:08:33 2015 -0600
+
+    Working on setting up flask
+
+commit 42981e5acf3e711279c3560db33af41eef5932bd
+Author: Seung Youp Baek <sb32676@cs.utexas.edu>
+Date:   Sat Feb 28 15:52:53 2015 -0600
+
+    renamed
+
+commit dce1ba8caedd17260c9387f89d6e7ecfd43cb678
+Author: Kevin Valle <kevinosvaldovalle@gmail.com>
+Date:   Sat Feb 28 21:51:19 2015 +0000
+
+    Added static and templates folder
+
+commit b36dd91cf3ed30853b3dde12fa44dcb8e05bb92c
+Author: Da Meng <dameng@utexas.edu>
+Date:   Sat Feb 28 15:26:19 2015 -0600
+
+    added initial data
+
+commit ccec6c72feea510e1eb5e9454d9693b087df2645
+Author: Da Meng <dameng@utexas.edu>
+Date:   Sat Feb 28 13:23:54 2015 -0600
+
+    Initial commit
